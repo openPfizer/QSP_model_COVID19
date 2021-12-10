@@ -1,4 +1,4 @@
-# QSP model of COVID-19 (November 2021) - A Quantitative Systems Pharmacology Model of the Pathophysiology and Treatment of COVID-19 Predicts Optimal Timing of Pharmacological Interventions
+# QSP model of COVID-19 (December 2021) - A Quantitative Systems Pharmacology Model of the Pathophysiology and Treatment of COVID-19 Predicts Optimal Timing of Pharmacological Interventions
 
 ## Description
 The model mechanistically accounts for the influence of key mediators relevant to COVID-19 pathophysiology including, interactions between viral dynamics, the major host immune response mediators, and alveolar tissue damage and regeneration.
@@ -6,7 +6,7 @@ The model mechanistically accounts for the influence of key mediators relevant t
 ## Primary results
 The code generates figures in the manuscript titled *A Quantitative Systems Pharmacology Model of the Pathophysiology and Treatment of COVID-19 Predicts Optimal Timing of Pharmacological Interventions*
 
-bioRxiv preprint doi:xxx
+medRxiv doi: https://doi.org/10.1101/2021.12.07.21267277
 
 ## Prerequisites
 MATLAB
@@ -14,7 +14,7 @@ MATLAB
 This code was written in MATLAB 2019b
 
 ## Setup
-Add all required (see below) files/directories in this repository to the MATLAB working directory/path.
+Add all files/directories in this repository to the MATLAB working directory/path.
 
 ## Contents
 The repository should contain the following required files:
@@ -49,6 +49,7 @@ Running the command below generates figures and saves them as .png files.
 run generate_figures.m
 ```
 
+Running all scripts to generate the figures in the paper takes approximately 2h on a 2019 Macbook Pro (2.4 GHz 8-Core Intel Core i9)
 ## Authors
 Rohit Rao*, CJ Musante, Richard Allen*
 
